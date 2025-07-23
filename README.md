@@ -22,7 +22,7 @@ Cleans and standardizes GBIF occurrence data for six focal species (*Centropogon
 Runs ensemble species distribution models (SDMs) using the cleaned occurrence data and climate predictors. Exports continuous habitat suitability maps (.tif), binarized presence/absence rasters, and polygon shapefiles for visual and quantitative overlap analyses.
 
 **3. `plot_distributions.R`**  
-Visualizes SDM outputs by plotting predicted distributions for each plant-pollinator pair. Calculates pairwise range overlap as a percentage of each species' total range and generates summary barplots and tables.
+Visualizes SDM outputs by plotting predicted distributions for each plant-pollinator pair. Calculates pairwise range overlap as a percentage of each species' total range.
 
 **4. `clean.csv`**  
 Cleaned occurrence data for all six species, used as input to the SDM pipeline.
